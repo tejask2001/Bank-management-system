@@ -1,0 +1,60 @@
+body{
+	background-color:powderblue;
+}
+
+header{
+	text-align: center;
+	background-color: lightcyan;
+	padding: 20px;
+}
+#welcome{
+	color: darkgreen;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.container,.list {
+	margin: auto;
+	background-color: teal;
+	padding: 50px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+	width: 400px;
+	text-align: center;
+}
+
+.balance,.withdraw,.deposit,.transfer{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  height: 50px;
+  width: 175px;
+}
+
+#logout{
+	position: relative;
+	left: 50%;
+	border-radius: px;
+	min-height: 10px;
+	min-width: 60px;
+	box-shadow: 0px 0px 6px 2px darkolivegreen;
+}
+.logout:hover{
+	background-color: darkgoldenrod;
+}
+i{
+	font-family: sans-serif;
+	color: midnightblue;
+}
+.balance:hover,.withdraw:hover,.transfer:hover,.deposit:hover{
+	background-color: red;
+}
+

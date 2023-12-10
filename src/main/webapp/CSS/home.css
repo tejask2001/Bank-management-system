@@ -1,0 +1,41 @@
+.corporate,.personal {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: auto;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.corporate,.personal  {
+	align-items: center;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.corporate:hover,.personal:hover {
+  background-color: chocolate;
+  color: black;
+}
+header{
+	padding: 9px;
+	color: white;
+}
+* {
+	align-items: center;
+	justify-content: center;
+  box-sizing: border-box;
+}
+.row{
+	text-align: center;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+background-color: darkslategray;
+}

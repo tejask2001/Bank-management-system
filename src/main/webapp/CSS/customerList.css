@@ -1,0 +1,23 @@
+body{
+	background-color:powderblue;
+	
+}
+
+table,th,td{
+	border-collapse: collapse;
+	padding: 4px;
+}
+th{
+    background-color:teal;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+  }
+tr{
+	border-bottom: 1px solid white;
+}
+td{
+	background-color:lightsteelblue;
+	text-align: center;
+	
+}
