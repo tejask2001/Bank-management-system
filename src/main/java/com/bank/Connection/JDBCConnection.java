@@ -7,8 +7,8 @@ public class JDBCConnection {
 
 	static String driver="com.mysql.cj.jdbc.Driver";
 	static String url="jdbc:mysql://localhost:3306/bank_db";
-	static String username="root";
-	static String password="Tejask21@";
+	static String username="_______";
+	static String password="_________";
 	
 	
 	public static Connection getConnection() {
